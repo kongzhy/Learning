@@ -26,6 +26,6 @@ delete()
 
 
 // for
-// for...in
-// for...of
+// for...in   Object、Array
+// for...of   Iterable(Object、Array、Set、Map)
 // forEach()
