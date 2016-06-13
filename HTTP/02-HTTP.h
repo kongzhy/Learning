@@ -21,3 +21,11 @@ OPTIONAL:询问支持的方法
 TRACE:追踪路径
 CONNECT:要求用隧道协议连接代理
 
+2.6、Command
+
+2.7、Connection
+持久连接(HTTP Persistent Connections)(HTTP keep-alive)(HTTP connection reuse)
+
+2.8、Cookie
+
+
