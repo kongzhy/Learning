@@ -10,4 +10,13 @@
 
 3.3、Encode
 
+3.4、Multi
+MIME(Multipurpose Internet Mail Extensions)多用途因特网邮件拓展
 
+3.5、Range
+指定范围发送的请求叫做范围请求(Range Request)
+针对范围请求，响应会返回状态码为206 Partial Content的响应报文。
+如果服务端无法响应范围请求，则会返回状态码200 OK和完整的实体内容。
+
+3.5、Content Negotiation
+内容协商机制是指客户端和服务端就响应的资源内容进行交涉，然后提供给客户端最为合适的资源。
