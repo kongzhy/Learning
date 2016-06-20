@@ -18,3 +18,5 @@
 
 // 判断NaN的方法
 isNaN()
+
+// 不用var申明的变量会被视为全局变量，为了避免这一缺陷，所有的JavaScript代码都应该使用strict模式。启用strict模式的方法是在JavaScript代码的第一行写上：'use strict';

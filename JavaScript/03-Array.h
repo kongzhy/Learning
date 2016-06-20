@@ -1,6 +1,7 @@
-// Array
+// JavaScript的Array可以包含任意数据类型，并通过索引来访问每个元素。
 // 直接给Array的length赋一个新的值会导致Array大小的变化
 // Array可以通过索引把对应的元素修改为新的值，因此，对Array的索引进行赋值会直接修改这个Array，如果索引超过了范围，同样会引起Array大小的变化
+// 大多数其他编程语言不允许直接改变数组的大小，越界访问索引会报错。然而，JavaScript的Array却不会有任何错误。在编写代码时，不建议直接修改Array的大小，访问索引时要确保索引不会越界。
 
 // 获取数组长度
 length
@@ -24,7 +25,7 @@ unshift()
 // 把Array的第一个元素删掉, 返回被删除的元素
 shift()
 
-// 对当前Array进行排序
+// 对当前Array进行排序，它会直接修改当前Array的元素位置，直接调用时，按照默认顺序排序
 sort()
 
 // 反转Array的元素
@@ -34,6 +35,7 @@ reverse()
 splice()
 
 // 把当前的Array和另一个Array连接起来，并返回一个新的Array
+// concat()方法可以接收任意个元素和Array，并且自动把Array拆开，然后全部添加到新的Array里
 concat()
 
 // 把当前Array的每个元素都用指定的字符串连接起来，然后返回连接后的字符串
