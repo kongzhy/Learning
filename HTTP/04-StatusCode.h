@@ -18,3 +18,14 @@
 303 See Other
 304 Not Modified
 307 Temporary Redirect
+
+4.4、4XX
+400 Bad Request
+401 Unauthorized
+403 Forbidden
+404 Not Found
+
+4.5、5XX
+500 Internet Server Error
+503 Service Unavailable
+
