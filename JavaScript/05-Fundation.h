@@ -1,3 +1,4 @@
+// if...else...语句的执行特点是二选一，在多个if...else...语句中，如果某个条件成立，则后续就不再继续判断了
 // JavaScript把null、undefined、0、NaN和空字符串''视为false，其他值一概视为true
 
 // Map
