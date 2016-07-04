@@ -1,6 +1,6 @@
 // JavaScript是一种运行在浏览器中的解释型的编程语言.
 
-// JavaScript代码可以直接嵌在网页的任何地方，不过通常我们都把JavaScript代码放到<head>中.
+// JavaScript代码可以直接嵌在网页的任何地方，不过通常我们都把JavaScript代码放到<head>中.另一种方法是把JavaScript代码放到一个单独的.js文件，然后在HTML中通过<script src="..."></script>引入这个文件
 
 // JavaScript并不强制要求在每个语句的结尾加;
 
