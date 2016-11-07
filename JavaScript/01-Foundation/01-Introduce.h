@@ -8,6 +8,8 @@
 
 // JavaScript严格区分大小写，如果弄错了大小写，程序将报错或者运行不正常。
 
+// JavaScript不区分整数和浮点数，统一用Number表示
+
 // NaN表示Not a Number，当无法计算结果时用NaN表示
 
 // Infinity表示无限大，当数值超过了JavaScript的Number所能表示的最大值时，就表示为Infinity
