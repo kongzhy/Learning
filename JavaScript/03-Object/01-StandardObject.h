@@ -10,3 +10,9 @@
 // 判断null请使用myVar === null；
 // 判断某个全局变量是否存在用typeof window.myVar === 'undefined'；
 // 函数内部判断某个变量是否存在用typeof myVar === 'undefined'。
+
+// null和undefined没有toString()方法
+
+// number对象调用toString()报SyntaxError,要特殊处理一下:
+// 123..toString();
+// (123).toString();
