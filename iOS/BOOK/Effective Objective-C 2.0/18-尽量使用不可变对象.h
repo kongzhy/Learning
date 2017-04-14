@@ -1,0 +1,3 @@
+尽量使用不可变的对象
+若某属性仅可于对象内部修改，则在Class-Continuation分类中将其由readonly修改为readwrite
+不要把可变的Collection作为属性公开，而应该提供相应方法，以此修改对象中的可变Collection

@@ -1,0 +1,2 @@
+如果想令自定义的类支持拷贝操作，就要实现NSCopying协议
+如果自定义的对象分为可变版本与不可变版本，那就要同时实现NSCopying与NSMutableCopying协议
