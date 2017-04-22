@@ -1,0 +1,6 @@
+dealloc
+开发者不应该自己调用dealloc方法，运行期系统会在适当时机调用
+在dealloc方法中不要调用属性的存取方法
+CoreFoundation对象必须手动释放，因为它们是由纯C的API生成的
+如果手动管理引用计数而不使用ARC的话，那么最后还需要调用[super dealloc]，ARC会自动执行此操作
+在dealloc方法中，应该释放指向其他对象的引用，并取消原来订阅的键值观察(KVO)或通知(NSNotification)，不要做其他事情

@@ -3,5 +3,5 @@
 3、块元素特立独行、内联元素随波逐流。
 4、void元素没有内容，只有一个标记组成。
 5、ol(ordered list) ul(unordered list) li(list item)
-6、<ol>和<ul>元素被设计为只能包含<li>元素
+6、<ol>和<ul>元素被设计为只能包含<li>元素，可以在列表中建立嵌套列表，将<ol>或<ul>元素放在<li>元素中
 7、要对HTML内容中特殊字符使用字符实体

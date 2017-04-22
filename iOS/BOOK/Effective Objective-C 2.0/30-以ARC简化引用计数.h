@@ -1,0 +1,1 @@
+ARC只负责管理OC对象的内存。尤其注意：CoreFoundation对象不归ARC管理，开发者必须适时调用CFRetain/CFRelease
