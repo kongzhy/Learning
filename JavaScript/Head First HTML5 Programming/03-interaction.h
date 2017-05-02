@@ -1,0 +1,4 @@
+处理按钮点击事件要注册一个函数来处理并把按钮的onclick属性设置为这个函数名
+要得到用户在表单输入文本域中输入的文本，使用value属性，如果用户没有输入任何内容，value是空串而不是null
+使用document.createElement创建新元素
+使用appendChild增加元素

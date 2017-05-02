@@ -1,0 +1,14 @@
+变量是用来存放值的容器。
+JavaScript变量没有严格的类型，所以任何变量都可以存放数字、串或布尔值
+JavaScript中使用var声明一个变量，声明变量时不一定要指定一个值，未赋值的变量值为undefined
+JavaScript变量命名:1、变量要以一个字母、下划线或者美元符开头 2、可以使用任意多个字母、数字、下划线或美元符 3、避开JavaScript的保留字
+每个语句都以一个分号结束，字符串用双引号包围
+
+可以向Web页面的head或body增加JavaScript，或者把它放在单独的文件中，使用<script>包围JavaScript代码
+浏览器加载一个Web页面时，会创建一个文档对象模型DOM(Document Object Model)
+将一个函数赋至window.onload属性，可以在浏览器完成页面加载之后运行
+可以使用document.getElementById访问元素，使用innerHTML属性改元素的内容
+
+Math是一个JavaScript库，数学相关库
+Math.random会返回一个介于0和1的浮点数
+Math.floor把一个浮点数小数点后面的所有位去除，转换成一个整数
