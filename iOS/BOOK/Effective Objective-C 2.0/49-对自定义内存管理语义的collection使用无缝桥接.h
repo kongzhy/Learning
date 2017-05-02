@@ -1,0 +1,1 @@
+通过无缝桥接技术，可以在Foundation框架中的OC对象与CoreFoundation框架中的C语言结构之间来回转换

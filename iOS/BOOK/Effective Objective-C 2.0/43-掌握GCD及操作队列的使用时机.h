@@ -1,0 +1,6 @@
+NSOperationQueue
+取消操作，NSOperationQueue已经启动的任务无法取消，CGD无法取消
+依赖关系
+键值观察
+操作优先级
+重用NSOperation
