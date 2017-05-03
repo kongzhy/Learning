@@ -1,0 +1,10 @@
+OC编译成C
+@interface、@implementation
+@property、@synthesize、@dynamic
+@class
+@public、@package、@protected、@private
+@protocol、@required、@optional
+@try、@catch、@finally
+@selector()、@protocol()
+@encode、@defs
+@autoreleasepool、@synchronized

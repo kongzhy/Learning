@@ -1,0 +1,6 @@
+允许开发者对已经存在的类在扩展中添加自定义的属性
+#import <objc/runtime.h>
+objc_setAssociatedObject
+objc_getAssociatedObject
+objc_removeAssociatedObjects
+调用objc_setAssociatedObject方法并传入一个nil值来清除一个关联
