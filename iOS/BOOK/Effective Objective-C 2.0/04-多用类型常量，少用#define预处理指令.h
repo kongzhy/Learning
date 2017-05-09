@@ -3,4 +3,4 @@
 eg. static const NSTimeInterval kAnimationDuration = 0.3
 外界可见的常值变量需放在全局符号表中，以便可以在定义该常量的编译单元之外使用，需要加前缀。在头文件中使用extern声明，在实现文件中定义。
 eg. extern NSString *const JDPStringConstant;
-    NSString *const JDPStringConstant = @"JDPStringConstant";
+NSString *const JDPStringConstant = @"JDPStringConstant";

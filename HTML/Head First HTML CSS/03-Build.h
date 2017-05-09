@@ -5,3 +5,5 @@ void元素没有内容(确切的讲，void元素是在开始标记和结束标�
 ol(ordered list) ul(unordered list) li(list item)
 <ol>和<ul>元素被设计为只能包含<li>元素，可以在列表中建立嵌套列表，将<ol>或<ul>元素放在<li>元素中
 要对HTML内容中特殊字符使用字符实体
+list-style-type:列表标记类型
+list-style-image:列表标记图像
