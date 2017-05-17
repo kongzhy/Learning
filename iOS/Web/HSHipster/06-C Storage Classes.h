@@ -1,0 +1,4 @@
+auto
+register
+static
+extern
