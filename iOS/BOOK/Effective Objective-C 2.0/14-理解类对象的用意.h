@@ -7,4 +7,4 @@ Metaclass
 对象类型并非在编译期就绑定好了，而是要在运行期查找，应该使用类型信息查询方法来探知
 isMemberOfClass:判断对象是否为某个特定类的实例
 isKindOfClass:判断对象是否为某类或者其派生类的实例
-
+类对象是单例(singleton)
