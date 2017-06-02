@@ -1,0 +1,5 @@
+Method Swizzling
+Method Swizzling用于改变一个已经存在的Selector的实现
+Method Swizzling应该只在+load中完成
+Method Swizzling应该只在dispatch_once中完成
+Method Swizzling应该调用原生方法的实现
