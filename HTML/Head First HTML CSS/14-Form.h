@@ -5,6 +5,7 @@ method属性包含发送表单数据的方法，POST或GET
 <input type="">
 text:单行文本输入框(name、value、maxlength、placeholder、required)
 submit:提交按钮
+button:按钮
 radio:单选框(checked)
 checkbox:复选框(checked)
 
