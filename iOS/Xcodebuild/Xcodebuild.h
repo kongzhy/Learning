@@ -1,4 +1,4 @@
-c// 显示Xcode路径
+// 显示Xcode路径
 xcode-select -print-path
 // 修改Xcode路径
 sudo xcode-select -switch /Applications/Xcode.app/Contents/Developer
