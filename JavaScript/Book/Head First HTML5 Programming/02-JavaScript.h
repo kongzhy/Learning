@@ -9,6 +9,6 @@ JavaScript变量命名:1、变量要以一个字母、下划线或者美元符�
 将一个函数赋至window.onload属性，可以在浏览器完成页面加载之后运行
 可以使用document.getElementById访问元素，使用innerHTML属性改元素的内容
 
-Math是一个JavaScript库，数学相关库
-Math.random会返回一个介于0和1的浮点数
+Math是一个JavaScript数学库
+Math.random会返回一个介于0和1的随机浮点数
 Math.floor把一个浮点数小数点后面的所有位去除，转换成一个整数
