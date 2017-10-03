@@ -13,9 +13,13 @@ now.getDay();
 now.getHours();
 // 49 : 分钟
 now.getMinutes();
-// now.getSeconds(); // 22, 秒
-// now.getMilliseconds(); // 875, 毫秒数
-// now.getTime(); // 1435146562875, 以number形式表示的时间戳
+// 22 : 秒
+now.getSeconds();
+// 875 : 毫秒数
+now.getMilliseconds();
+// 1435146562875 : 以number形式表示的时间戳
+now.getTime();
+
 // JavaScript的月份范围用整数表示是0~11，0表示一月，1表示二月……
 // 注意，当前时间是浏览器从本机操作系统获取的时间，所以不一定准确，因为用户可以把当前时间设定为任何值。
 
