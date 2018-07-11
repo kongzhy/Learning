@@ -98,13 +98,25 @@ git remote
 git remote -v
 git remote show origin
 
-//推送分支
-git push origin <branchname>
-
-//创建远程分支到本地
-git checkout -b <branchname> origin/<branchname>
-
 //指定本地分支与远程分支的链接
 git branch --set-upstream <branchname> origin/<branchname>
 //抓取分支
 git pull
+
+//
+git checkout . #
+
+// 查看远程分支
+git branch -a
+
+// 拉取远程分支
+git pull origin <branchname>
+
+//创建远程分支到本地
+git checkout -b <branchname> origin/<branchname>
+
+// 推送远程分支
+git push origin <branchname>
+
+// 删除远程分支
+git push origin -d <branchname>
