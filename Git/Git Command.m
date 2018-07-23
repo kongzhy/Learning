@@ -14,6 +14,9 @@ git init
 // 把文件修改添加到暂存区
 git add
 
+// 把所有文件修改添加到暂存区
+git add -A
+
 // 把暂存区的内容提交到当前分支
 git commit -m"common"
 
