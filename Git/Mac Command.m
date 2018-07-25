@@ -14,9 +14,11 @@ ls -ah
 // 删除文件
 rm <filename>
 
-// 创建文件
-cat > <filename>
-
 // 显示文件内容
 cat <filename>
 
+// 创建文件
+cat > <filename>
+
+// 终止
+ctrl c
