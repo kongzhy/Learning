@@ -33,6 +33,7 @@ git diff --cached
 // 显示版本库提交历史
 git log
 git log --pretty=oneline
+git log --graph
 git log --graph --pretty=oneline --abbrev-commit
 
 // 显示版本库命令历史
@@ -67,6 +68,9 @@ git push origin master
 // 从远程库克隆一个本地库
 git clone git@github.com:<username>/<dirname>.git
 
+// 克隆单分支
+git clone git@github.com:<username>/<dirname>.git -b <branchname> --single-branch
+
 // 显示分支
 git branch
 
@@ -75,7 +79,12 @@ git branch <branchname>
 
 // 切换分支
 git checkout <branchname>
+
+// 创建并切换分支
 git checkout -b <branchname>
+
+// 创建远程分支到本地
+git checkout -b <branchname> origin/<branchname>
 
 // 合并指定分支到当前分支
 git merge <branchname>
@@ -98,25 +107,22 @@ git stash apply
 git stash apply stash@{0}
 git stash drop
 
-//查看远程库的信息
+// 查看远程库的信息
 git remote
 git remote -v
 git remote show origin
 
-//指定本地分支与远程分支的链接
+// 指定本地分支与远程分支的链接
 git branch --set-upstream <branchname> origin/<branchname>
-//抓取分支
-git pull
 
+// 抓取分支
+git pull
 
 // 查看远程分支
 git branch -a
 
 // 拉取远程分支
 git pull origin <branchname>
-
-//创建远程分支到本地
-git checkout -b <branchname> origin/<branchname>
 
 // 推送远程分支
 git push origin <branchname>
