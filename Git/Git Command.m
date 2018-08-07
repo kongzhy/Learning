@@ -43,8 +43,10 @@ git reset --hard HEAD^
 git reset --hard HEAD~1
 git reset --hard <commit id>
 
-// 用版本库里的版本替换工作区的版本
+// 用暂存区版本替换工作区的版本
 git checkout -- <filename>
+
+git checkout . #
 
 // 撤销暂存区的修改
 git reset HEAD <filename>
@@ -106,8 +108,6 @@ git branch --set-upstream <branchname> origin/<branchname>
 //抓取分支
 git pull
 
-//
-git checkout . #
 
 // 查看远程分支
 git branch -a
