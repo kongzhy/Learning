@@ -17,8 +17,11 @@ git add
 // 把所有文件修改添加到暂存区
 git add -A
 
+// 强制添加
+git add -f
+
 // 把暂存区的内容提交到当前分支
-git commit -m"common"
+git commit -m "common"
 
 // 查看版本库当前状态
 git status
@@ -54,6 +57,9 @@ git reset HEAD <filename>
 
 // 删除文件
 git rm <filename>
+
+// 检查gitignore
+git check-ignore -v <filename>
 
 // 创建SSH
 ssh-keygen -t rsa -C "youremail@example.com"
@@ -129,3 +135,6 @@ git push origin <branchname>
 
 // 删除远程分支
 git push origin -d <branchname>
+
+// 修改单个文件默认大小
+git config --global http.postBuffer 524288000
