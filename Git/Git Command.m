@@ -113,9 +113,11 @@ git stash apply
 git stash apply stash@{0}
 git stash drop
 
-// 查看远程库的信息
+// 查看远程主机
 git remote
+// 查看远程主机地址
 git remote -v
+// 查看远程主机信息
 git remote show origin
 
 // 指定本地分支与远程分支的链接
@@ -125,6 +127,7 @@ git branch --set-upstream <branchname> origin/<branchname>
 git pull
 
 // 查看远程分支
+git branch -r
 git branch -a
 
 // 拉取远程分支
