@@ -16,3 +16,6 @@ insert(index, element)
 pop()
 
 
+// Tuple 不可变的List，更安全
+// 定义时元素必须被确定
+// 只有一个元素的Tuple定义时必须加，消除歧义
