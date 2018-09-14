@@ -22,3 +22,21 @@ cat > <filename>
 
 // 终止
 ctrl c
+
+// 显示隐藏文件
+defaults write com.apple.finder AppleShowAllFiles -bool YES
+
+// 重启Finder
+killall Finder
+
+// 统计代码行数
+find . "(" -name "*.m" -or -name "*.h" ")" -print | xargs wc -l
+
+// 创建SSH Key
+ssh-keygen -t rsa -C "youremail@example.com"
+
+// 编辑hosts
+sudo vi /etc/hosts
+i
+[esc]
+:wq
